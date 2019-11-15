@@ -1,3 +1,0 @@
-[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "Интерфейс «com.canonical.dbusmenu» для пути /org/ayatana/bamf/window/60817418 объекта не найден"
-[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "Интерфейс «com.canonical.dbusmenu» для пути /org/ayatana/bamf/window/46137354 объекта не найден"
-[31mvoid DBusMenuImporter::slotGetLayoutFinished(QDBusPendingCallWatcher*)[0m: "Интерфейс «com.canonical.dbusmenu» для пути /org/ayatana/bamf/window/12583051 объекта не найден"

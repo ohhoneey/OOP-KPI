@@ -1,2 +1,3 @@
 openConnection: connect: Нет такого файла или каталога
 cannot connect to brltty at :0
+upstart: Процесс update-notifier-cds main (8047) завершен с кодом 1
