@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp2
+{
+    class Program
+    {
+        static void Comparison(int x, int y) //порівняння
+        {
+            int temp;
+            temp = y & ((x - y) >> 31) | x & (~(x - y) >> 31);//відбувається зсув вправо різниці порівнюваних чисел і порівняння її з одним із чисел, 1 залишається тільки в тій позиції, де в обох стояла 1
+            if (x == temp && y == temp)
+            {
+                Console.WriteLine($"{x} = {y}");
+            }
+            if (x == temp && y != temp)
+            {
+                Console.WriteLine($"{x} > {y}");
+            }
+            else
+            {
+                Console.WriteLine($"{x} < {y}");
+            }
+        }
+
+            static void Increment( ref int value)//збільшення на 1
+            {
+                int mask;
+
+            for (mask = 1; (value & mask) != 0; mask <<= 1)//додаткова змінна або число повинно не дорівнювати 0, кожен раз відбувається зсув дод. змінної вліво на 1 
+                value &= ~mask;//в початкове значення повертається порівняні операнди, але 1 залишається тільки в тій позиції, де в обох стояла 1, при тому додаткова змінна інвертується 
+
+                value |= mask; //1 залишається тільки в тій позиції, де хоча б в одній змінній стояла 1
+            }
+
+            static void Main(string[] args)
+            {
+                Console.OutputEncoding = Encoding.GetEncoding(1251);
+                Console.WriteLine("Кабанец Виктория ИС-92");
+                Console.WriteLine("Введите число: ");
+                int num1 = Convert.ToInt32(Console.ReadLine());
+                int num2 = Convert.ToInt32(Console.ReadLine());
+                Comparison(num1, num2); //порівняння
+                Increment(ref num1);//збільшення
+            Console.WriteLine(num1);
+            Console.ReadKey();
+            }
+        }
+    }
