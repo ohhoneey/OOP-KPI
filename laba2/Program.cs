@@ -1,4 +1,5 @@
 ﻿using System;
+using MyLib;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +12,9 @@ namespace Laba2
         static void Main(string[] args)
         {
             
-            var str1 = new Mystring("jhjjftjgk");
-            var str2 = new Mystring("jhdfhvgk");
-            var str3 = new Mystring("jhhfghy");
+            var str1 = new MyLib.Mystring("jhjjftjgk");
+            var str2 = new MyLib.Mystring("jhdfhvgk");
+            var str3 = new MyLib.Mystring("jhhfghy");
             Mytext text = new Mytext();
             text.AddString(str2);
             text.AddString(str1);
