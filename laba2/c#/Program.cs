@@ -11,25 +11,25 @@ namespace Laba2
         static void Main(string[] args)
         {
             
-            var str1 = new Mystring("jhjjftjgk");
-            var str2 = new Mystring("jhdfhvgk");
-            var str3 = new Mystring("jhhfghy");
-            Mytext text = new Mytext();
+            var str1 = new MyLib.Mystring("jhjjftjgk"); 
+            var str2 = new MyLib.Mystring("jhdfhvgk");
+            var str3 = new MyLib.Mystring("jhhfghy");
+            Mytext text = new Mytext();//виклик класу текста
             text.AddString(str2);
             text.AddString(str1);
             text.AddString(str3);
-            int y = str1.Counting('j');
-            int z = str2.Counting('j');
-            int e = str3.Counting('h');
-          
-            Console.WriteLine(y);
-            Console.WriteLine(z);
-            Console.WriteLine(e);
-            Console.WriteLine(text.Allsymbols());
+            int y = str1.Counting('j');//підрахунок літери в рядку
+            int z = str2.Counting('j');//підрахунок літери в рядку
+            int e = str3.Counting('h');//підрахунок літери в рядку
 
-            text.ReplaceString(2, str1);
-            text.RemoveIdentical();
-            text.Erase();
+            Console.WriteLine(y);//вивід на екран підрахунку літери в рядку
+            Console.WriteLine(z);//вивід на екран підрахунку літери в рядку
+            Console.WriteLine(e);//вивід на екран підрахунку літери в рядку
+            Console.WriteLine(text.Allsymbols());//вивід на екран підрахунку літер в тексті
+
+            text.ReplaceString(2, str1);//заміна рядка в тексті
+            text.RemoveIdentical();//видалення однакових рядків 
+            text.Erase();//очищення тексту
 
             Console.ReadKey();
         }
