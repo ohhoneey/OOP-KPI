@@ -8,19 +8,19 @@ namespace Laba2
 {
     class Mytext
     {
-        Mystring[] Text;
-        int size;
+         Mystring[] Text;//виділяємо пам'ять під текст
+        int size; //розмір
 
         public void AddString(Mystring str)
         {
-            Array.Resize(ref Text, ++size);
+            Array.Resize(ref Text, ++size);//створюємо динамічний масив, куди додаємо текст
             Text[size - 1] = str;
         }
 
-        public void DelString(int index)
+        public void DelString(int index)//видалення строки
         {
             index--;
-            var newData = new Mystring[Text.Length - 1];
+            var newData = new Mystring[Text.Length - 1];//створюємо масив під оновлений текст
             for (int i = 0; i < index; i++)
                 newData[i] = Text[i];
             for (int i = index; i < newData.Length; i++)
@@ -29,19 +29,19 @@ namespace Laba2
             size--;
         }
 
-        public void ReplaceString(int index, Mystring str)
+        public void ReplaceString(int index, Mystring str)//заміна строки
         {
             Text[index - 1] = str;
         }
 
-        public void Erase()
+        public void Erase()//видалення тексту
         {
             Mystring[] text = new Mystring[0];
             Text = text;
             size = 0;
         }
 
-        public void RemoveIdentical()
+        public void RemoveIdentical()//видалення однакових строк
         {
             for (int i = 0; i < Text.Length - 1; i++)
             {
@@ -64,7 +64,7 @@ namespace Laba2
             }
         }
 
-        public int Allsymbols()
+        public int Allsymbols()//підрахунок всіх символів
         {
             int symbols = 0;
             foreach (var item in Text)
