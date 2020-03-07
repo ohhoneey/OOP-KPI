@@ -8,14 +8,14 @@ namespace Laba2
 {
     class Mystring
     {
-        char[] Str;
+        char[] Str;//виділяємо пам'ять під рядок
 
-        public Mystring(string str)
+        public Mystring(string str)//строку конвертуємо в масив символів
         {
             Str = str.ToCharArray();
         }
 
-        public int Counting(char s)
+        public int Counting(char s)//рахуємо кількість повторів заданого символу
         {
             int count = 0;
             foreach (var c in Str)
@@ -28,7 +28,7 @@ namespace Laba2
             return count;
         }
 
-        public int Count()
+        public int Count()//кількість сиволів в строці
         {
             return Str.Length;
         }
