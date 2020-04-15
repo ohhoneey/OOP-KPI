@@ -5,3 +5,10 @@ C:\Users\User\source\repos\OOP5\OOP5\obj\Debug\OOP5.csproj.CoreCompileInputs.cac
 C:\Users\User\source\repos\OOP5\OOP5\obj\Debug\OOP5.exe
 C:\Users\User\source\repos\OOP5\OOP5\obj\Debug\OOP5.pdb
 C:\Users\User\source\repos\OOP5\OOP5\obj\Debug\OOP5.csprojAssemblyReference.cache
+C:\Users\User\source\repos\OOP5\Laba5(c#)\bin\Debug\OOP5.exe.config
+C:\Users\User\source\repos\OOP5\Laba5(c#)\bin\Debug\OOP5.exe
+C:\Users\User\source\repos\OOP5\Laba5(c#)\bin\Debug\OOP5.pdb
+C:\Users\User\source\repos\OOP5\Laba5(c#)\obj\Debug\OOP5.csprojAssemblyReference.cache
+C:\Users\User\source\repos\OOP5\Laba5(c#)\obj\Debug\OOP5.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\OOP5\Laba5(c#)\obj\Debug\OOP5.exe
+C:\Users\User\source\repos\OOP5\Laba5(c#)\obj\Debug\OOP5.pdb
