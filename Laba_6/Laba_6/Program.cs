@@ -12,7 +12,6 @@ namespace Laba_6
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Кабанец Виктория ИС -92");
             var exp = new List<Expression>();
             exp.Add(new Expression(1, 0, 2, 3)); //сттворення та додавання об'єкта 1
             exp.Add(new Expression(1, -1, 2, 3)); //сттворення та додавання об'єкта 2
