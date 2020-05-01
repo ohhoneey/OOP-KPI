@@ -5,8 +5,7 @@ using namespace std;
 
 int main()
 {
-	setlocale(LC_ALL, "Ukr");
-	cout << "Кабанец Виктория ИС - 92" << endl;
+
 	int n = 1;
 	Expression **array = new Expression*[n];
 	array[0] = new Expression(1, 0, 5, 6);
