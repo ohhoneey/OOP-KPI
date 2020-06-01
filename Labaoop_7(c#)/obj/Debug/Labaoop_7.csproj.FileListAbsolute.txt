@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Labaoop_7\Labaoop_7\bin\Debug\Labaoop_7.exe.config
+C:\Users\User\source\repos\Labaoop_7\Labaoop_7\bin\Debug\Labaoop_7.exe
+C:\Users\User\source\repos\Labaoop_7\Labaoop_7\bin\Debug\Labaoop_7.pdb
+C:\Users\User\source\repos\Labaoop_7\Labaoop_7\obj\Debug\Labaoop_7.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Labaoop_7\Labaoop_7\obj\Debug\Labaoop_7.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Labaoop_7\Labaoop_7\obj\Debug\Labaoop_7.exe
+C:\Users\User\source\repos\Labaoop_7\Labaoop_7\obj\Debug\Labaoop_7.pdb
